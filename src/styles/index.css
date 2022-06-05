@@ -14,10 +14,20 @@ body {
     background-color: rgb(109, 108, 108);
 }
 
-.selected {
+.selected-red {
+    -webkit-box-shadow:0px 0px 58px 11px rgba(183, 22, 16, 0.9);
+    -moz-box-shadow: 0px 0px 58px 11px rgba(183, 22, 16, 0.9);
+    box-shadow: 0px 0px 58px 11px rgba(183, 22, 16, 0.9);
+}
+.selected-yellow {
     -webkit-box-shadow:0px 0px 58px 11px rgba(255,227,46,0.9);
     -moz-box-shadow: 0px 0px 58px 11px rgba(255,227,46,0.9);
     box-shadow: 0px 0px 58px 11px rgba(255,227,46,0.9);
+}
+.selected-green {
+    -webkit-box-shadow:0px 0px 58px 11px rgba(52, 186, 49, 0.9);
+    -moz-box-shadow: 0px 0px 58px 11px rgba(52, 186, 49, 0.9);
+    box-shadow: 0px 0px 58px 11px rgba(52, 186, 49, 0.9);
 }
 
 .trafficLight {
@@ -50,4 +60,8 @@ body {
   }
   .green {
     background-color: green;
+  }
+  
+  button {
+    border: none;
   }
